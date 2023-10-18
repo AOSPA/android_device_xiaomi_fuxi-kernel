@@ -378,6 +378,7 @@ kernel/drivers/md/dm-crypt.ko
 kernel/drivers/md/dm-default-key.ko
 kernel/drivers/md/dm-snapshot.ko
 kernel/drivers/md/dm-verity.ko
+kernel/drivers/md/dm-bow.ko
 kernel/drivers/md/dm-user.ko
 kernel/drivers/bluetooth/hci_uart.ko
 kernel/drivers/bluetooth/btsdio.ko

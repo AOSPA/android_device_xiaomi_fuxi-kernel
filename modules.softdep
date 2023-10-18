@@ -5,6 +5,7 @@ softdep qmi_helpers pre: qrtr
 softdep c1dcvs_scmi pre: c1dcvs_vendor
 softdep qsee_ipc_irq_bridge pre: qcom_ipcc
 softdep smem pre: qcom_hwspinlock
+softdep cpufreq_stats_scmi pre: cpufreq_stats_vendor
 softdep dwc3_msm pre: phy-generic phy-msm-snps-hs phy-msm-ssusb-qmp eud
 softdep pinctrl_msm pre: qcom-pdc
 softdep leds_qti_tri_led pre: pwm-qti-lpg
