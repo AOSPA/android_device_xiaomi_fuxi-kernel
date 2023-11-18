@@ -14,6 +14,7 @@
 /vendor/lib/modules/mhi_dev_uci.ko: /vendor/lib/modules/mhi_dev_dtr.ko /vendor/lib/modules/mhi.ko /vendor/lib/modules/pci-msm-drv.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/eud.ko:
 /vendor/lib/modules/stm_p_basic.ko: /vendor/lib/modules/stm_core.ko
+/vendor/lib/modules/test_user_copy.ko:
 /vendor/lib/modules/rmnet_sch.ko:
 /vendor/lib/modules/qcedev-mod_dlkm.ko: /vendor/lib/modules/qce50_dlkm.ko /vendor/lib/modules/sps_drv.ko
 /vendor/lib/modules/qti-ocp-notifier.ko:
@@ -31,9 +32,11 @@
 /vendor/lib/modules/memlat_vendor.ko:
 /vendor/lib/modules/qrtr-mhi.ko: /vendor/lib/modules/mhi.ko /vendor/lib/modules/pci-msm-drv.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/qcom_cpuss_sleep_stats.ko:
+/vendor/lib/modules/atomic64_test.ko:
 /vendor/lib/modules/coresight-dummy.ko: /vendor/lib/modules/coresight.ko
 /vendor/lib/modules/usb_f_gsi.ko: /vendor/lib/modules/ipa_fmwk.ko /vendor/lib/modules/dwc3-msm.ko /vendor/lib/modules/redriver.ko
 /vendor/lib/modules/qca_cld3_kiwi_v2.ko: /vendor/lib/modules/cnss2.ko /vendor/lib/modules/wlan_firmware_service.ko /vendor/lib/modules/cnss_plat_ipc_qmi_svc.ko /vendor/lib/modules/cnss_utils.ko /vendor/lib/modules/qcom_ramdump.ko /vendor/lib/modules/mi_cnss_statistic.ko /vendor/lib/modules/qcom_va_minidump.ko /vendor/lib/modules/cnss_prealloc.ko /vendor/lib/modules/cnss_nl.ko /vendor/lib/modules/cfg80211.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/mhi.ko /vendor/lib/modules/pci-msm-drv.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
+/vendor/lib/modules/lkdtm.ko:
 /vendor/lib/modules/bam_dma.ko:
 /vendor/lib/modules/lpass_cdc_wsa2_macro_dlkm.ko: /vendor/lib/modules/swr_ctrl_dlkm.ko /vendor/lib/modules/wcd_core_dlkm.ko /vendor/lib/modules/lpass_cdc_dlkm.ko /vendor/lib/modules/spf_core_dlkm.ko /vendor/lib/modules/gpr_dlkm.ko /vendor/lib/modules/snd_event_dlkm.ko /vendor/lib/modules/q6_notifier_dlkm.ko /vendor/lib/modules/q6_pdr_dlkm.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/swr_dlkm.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/usb_bam.ko: /vendor/lib/modules/sps_drv.ko
@@ -44,6 +47,7 @@
 /vendor/lib/modules/debugcc-kalama.ko:
 /vendor/lib/modules/industrialio-buffer-cb.ko:
 /vendor/lib/modules/max31760_fan.ko:
+/vendor/lib/modules/thermal_config.ko:
 /vendor/lib/modules/qcom_iommu_debug.ko:
 /vendor/lib/modules/i3c-master-msm-geni.ko:
 /vendor/lib/modules/qcom_ramdump.ko:
@@ -73,6 +77,7 @@
 /vendor/lib/modules/fts_touch_spi.ko: /vendor/lib/modules/panel_event_notifier.ko /vendor/lib/modules/xiaomi_touch.ko
 /vendor/lib/modules/msm_geni_serial.ko:
 /vendor/lib/modules/phy-msm-ssusb-qmp.ko:
+/vendor/lib/modules/torture.ko:
 /vendor/lib/modules/msm_kgsl.ko: /vendor/lib/modules/msm_performance.ko /vendor/lib/modules/qcom_va_minidump.ko /vendor/lib/modules/coresight.ko
 /vendor/lib/modules/kfifo_buf.ko:
 /vendor/lib/modules/reboot-mode.ko:
@@ -90,6 +95,7 @@
 /vendor/lib/modules/qcom_smd.ko:
 /vendor/lib/modules/icc-test.ko:
 /vendor/lib/modules/mi_log.ko:
+/vendor/lib/modules/locktorture.ko: /vendor/lib/modules/torture.ko
 /vendor/lib/modules/qmi_helpers.ko:
 /vendor/lib/modules/ehset.ko:
 /vendor/lib/modules/qca_cld3_kiwi.ko: /vendor/lib/modules/cnss2.ko /vendor/lib/modules/wlan_firmware_service.ko /vendor/lib/modules/cnss_plat_ipc_qmi_svc.ko /vendor/lib/modules/cnss_utils.ko /vendor/lib/modules/qcom_ramdump.ko /vendor/lib/modules/mi_cnss_statistic.ko /vendor/lib/modules/qcom_va_minidump.ko /vendor/lib/modules/cnss_prealloc.ko /vendor/lib/modules/cnss_nl.ko /vendor/lib/modules/cfg80211.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/mhi.ko /vendor/lib/modules/pci-msm-drv.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
@@ -187,6 +193,7 @@
 /vendor/lib/modules/chipreg.ko:
 /vendor/lib/modules/smcinvoke_dlkm.ko: /vendor/lib/modules/qseecom_proxy.ko
 /vendor/lib/modules/smp2p.ko:
+/vendor/lib/modules/spidev.ko:
 /vendor/lib/modules/hardwareinfo.ko:
 /vendor/lib/modules/qti_battery_debug.ko: /vendor/lib/modules/pmic_glink.ko /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/cfg80211.ko:
@@ -226,6 +233,7 @@
 /vendor/lib/modules/phy-qcom-ufs-qmp-v4-khaje.ko:
 /vendor/lib/modules/coresight-tgu.ko: /vendor/lib/modules/coresight.ko
 /vendor/lib/modules/ipam.ko: /vendor/lib/modules/gsim.ko /vendor/lib/modules/qcom_va_minidump.ko /vendor/lib/modules/ipa_fmwk.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/mhi.ko /vendor/lib/modules/pci-msm-drv.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
+/vendor/lib/modules/coresight-etm4x.ko: /vendor/lib/modules/coresight.ko
 /vendor/lib/modules/glink_probe.ko: /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/msm_gpi.ko:
 /vendor/lib/modules/repeater-i2c-eusb2.ko: /vendor/lib/modules/repeater.ko
@@ -280,6 +288,7 @@
 /vendor/lib/modules/block2mtd.ko: /vendor/lib/modules/mtd.ko
 /vendor/lib/modules/cnss_utils.ko:
 /vendor/lib/modules/qcom_q6v5.ko: /vendor/lib/modules/qcom_sysmon.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
+/vendor/lib/modules/i2c-dev.ko:
 /vendor/lib/modules/pwm-qti-lpg.ko:
 /vendor/lib/modules/pci-msm-drv.ko: /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/ir-spi.ko:
@@ -290,3 +299,4 @@
 /vendor/lib/modules/pmic_glink.ko: /vendor/lib/modules/pdr_interface.ko /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/pdr_interface.ko: /vendor/lib/modules/qmi_helpers.ko /vendor/lib/modules/rproc_qcom_common.ko /vendor/lib/modules/qcom_smd.ko /vendor/lib/modules/qcom_glink_smem.ko /vendor/lib/modules/qcom_glink.ko
 /vendor/lib/modules/adsp_sleepmon.ko:
+/vendor/lib/modules/rcutorture.ko: /vendor/lib/modules/torture.ko
