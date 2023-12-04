@@ -1,7 +1,5 @@
-locktorture.ko
-rcutorture.ko
 msm_sysstats.ko
-torture.ko
+cpq.ko
 msm_show_resume_irq.ko
 mhi.ko
 mhi_cntrl_qcom.ko
@@ -77,11 +75,9 @@ rdbg.ko
 xlogchar.ko
 qcom_iommu_debug.ko
 lt9611uxc.ko
-lkdtm.ko
 perf_helper.ko
 qseecom_proxy.ko
 sg.ko
-spidev.ko
 spi-msm-geni.ko
 spmi-pmic-arb-debug.ko
 mi_cnss_statistic.ko
@@ -111,7 +107,6 @@ qcom-hv-haptics.ko
 goodix_fod.ko
 fpc1555.ko
 i2c-msm-geni.ko
-i2c-dev.ko
 i3c-master-msm-geni.ko
 ir-spi.ko
 qcom_ipc_lite.ko
@@ -132,7 +127,6 @@ qti_cpufreq_cdev.ko
 qti_devfreq_cdev.ko
 qti_userspace_cdev.ko
 sdpm_clk.ko
-thermal_config.ko
 mi_thermal_interface.ko
 qcom_edac.ko
 qcom-cpufreq-hw-debug.ko
@@ -161,8 +155,6 @@ gh_mem_notifier.ko
 qcom-spmi-adc5-gen3.ko
 qcom-vadc-common.ko
 industrialio-buffer-cb.ko
-industrialio-triggered-buffer.ko
-kfifo_buf.ko
 nvmem_qfprom.ko
 icc-test.ko
 migt.ko
@@ -187,7 +179,6 @@ coresight.ko
 coresight-tmc.ko
 coresight-funnel.ko
 coresight-replicator.ko
-coresight-etm4x.ko
 coresight-stm.ko
 coresight-cti.ko
 coresight-tpda.ko
@@ -209,9 +200,7 @@ mac80211.ko
 qrtr-smd.ko
 qrtr-mhi.ko
 qrtr-gunyah.ko
-test_user_copy.ko
 kunit.ko
-atomic64_test.ko
 sla.ko
 miwill.ko
 miwill_mode_redudancy.ko
@@ -249,6 +238,7 @@ wsa883x_dlkm.ko
 wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 cs35l41_dlkm.ko
+cs35l43_dlkm.ko
 aw882xx_dlkm.ko
 hdmi_dlkm.ko
 q6_notifier_dlkm.ko
@@ -283,6 +273,7 @@ wsa883x_dlkm.ko
 wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 cs35l41_dlkm.ko
+cs35l43_dlkm.ko
 aw882xx_dlkm.ko
 hdmi_dlkm.ko
 stm_st54se_gpio.ko
@@ -341,6 +332,7 @@ wsa883x_dlkm.ko
 wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 cs35l41_dlkm.ko
+cs35l43_dlkm.ko
 aw882xx_dlkm.ko
 hdmi_dlkm.ko
 q6_notifier_dlkm.ko
@@ -375,6 +367,7 @@ wsa883x_dlkm.ko
 wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 cs35l41_dlkm.ko
+cs35l43_dlkm.ko
 aw882xx_dlkm.ko
 hdmi_dlkm.ko
 btpower.ko

@@ -4,6 +4,7 @@ kernel/lib/xz/xz_dec.ko
 kernel/arch/arm64/kvm/kvm.ko
 kernel/arch/arm64/crypto/sha2-ce.ko
 kernel/arch/arm64/crypto/sha512-ce.ko
+kernel/arch/arm64/crypto/ghash-ce.ko
 kernel/arch/arm64/crypto/polyval-ce.ko
 kernel/arch/arm64/crypto/aes-ce-cipher.ko
 kernel/arch/arm64/crypto/aes-glue-ce.ko
@@ -456,6 +457,8 @@ kernel/drivers/devfreq/governor_userspace.ko
 kernel/drivers/devfreq/governor_passive.ko
 kernel/drivers/extcon/extcon-core.ko
 kernel/drivers/iio/industrialio.ko
+kernel/drivers/iio/buffer/industrialio-triggered-buffer.ko
+kernel/drivers/iio/buffer/kfifo_buf.ko
 kernel/drivers/powercap/powercap_sys.ko
 kernel/drivers/android/binder.ko
 kernel/drivers/android/android_debug_symbols.ko
