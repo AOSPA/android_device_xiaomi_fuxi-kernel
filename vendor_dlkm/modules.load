@@ -89,6 +89,7 @@ kernel/drivers/mfd/qcom-i2c-pmic.ko
 kernel/drivers/scsi/sg.ko
 kernel/drivers/spi/spi-msm-geni.ko
 kernel/drivers/spmi/spmi-pmic-arb-debug.ko
+kernel/drivers/net/phy/at803x.ko
 kernel/drivers/net/phy/realtek.ko
 kernel/drivers/net/can/spi/mcp25xxfd.ko
 kernel/drivers/uio/msm_sharedmem/msm_sharedmem.ko
